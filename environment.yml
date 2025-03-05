@@ -1,0 +1,17 @@
+name: eeg_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - jupyter
+  - mne
+  - seaborn
+  #- pyriemann
+  - pip :
+    - mne_connectivity
